@@ -18,7 +18,7 @@ class PlantController extends Controller
 
     public function addPlant()
     {
-        return view('add_plant');
+        return view('add-plant');
     }
 
     public function store(Request $request)
