@@ -12,6 +12,7 @@
     </style>
 </head>
 <body class="antialiased">
+@include('partials.navbar')
 @yield('content')
 
 @yield('js')

@@ -11,11 +11,10 @@
             color: #2d3748;
         }
 
-
 @endsection
 @section('content')
     <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-        <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-6xl sm:px-6 lg:px-8 flex flex-row">
             <div class="bg-white flex flex-row flex-wrap p-3">
                 <div class="mx-auto">
                 @foreach($plants as $plant)

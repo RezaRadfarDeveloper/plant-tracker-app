@@ -27,9 +27,9 @@
             </div>
 
             <div class="mt-10">
-                <form method="POST" action="/api/plants" id="add_plant_form" enctype="multipart/form-data">
+                <form method="POST" action="{{route('plants.store')}}" id="add_plant_form" enctype="multipart/form-data">
                     @csrf
-                    <div class="flex flex-col mb-5">
+                    <div class="\flex flex-col mb-5">
                         <label
                             for="email"
                             class="mb-1 text-xs tracking-wide text-gray-600"
