@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PlantCollection;
 use App\Models\Plant;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
